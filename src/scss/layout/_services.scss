@@ -1,0 +1,34 @@
+.services {
+    background: url('../img/services-bg.jpg') no-repeat center;
+
+    &__inner {
+        
+        padding: 100px 0 110px ;
+    }
+    
+    &__content {
+        @extend .container;
+      
+    }
+
+    &__frame {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__paragraph {
+        margin-bottom: 30px;
+    }
+}
+.frame {
+
+    &__title {
+    }
+
+    &__text {
+    }
+}

@@ -1,0 +1,23 @@
+.about-us {
+    padding-top: 140px;
+
+    &__content {
+        @extend .container;
+        color: #3c3c3c;
+        padding-bottom: 130px;
+    }
+
+    &__frame {
+    }
+
+    &__title {
+
+    }
+
+    &__text {
+    }
+
+    &__paragraph {
+        margin-bottom: 30px;
+    }
+}
