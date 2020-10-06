@@ -1,0 +1,10 @@
+.contact-us {
+    &__content {
+        @extend .container;
+    }
+
+    &__button {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+}

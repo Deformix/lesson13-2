@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.button {
+    background-color: #3c3c3c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 140px ;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: lighten(#3c3c3c, 10%)
+}

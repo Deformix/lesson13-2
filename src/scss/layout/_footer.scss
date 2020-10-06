@@ -1,3 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    &__copyright {
+        @extend .container;
+        text-align: center;
+    }
+
+    &__logo {
+        vertical-align: middle;
+        margin-right: 35px;
+    }
+}
