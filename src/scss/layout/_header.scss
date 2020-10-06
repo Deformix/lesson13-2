@@ -1,3 +1,55 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.header {
+    background-color: #a8b3c7;
+    background-image: url("../img/header-bg.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+    padding: 280px 0 110px;
+
+    &__content {
+        @extend .container;
+        align-items: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 650px;
+    }
+
+    &__logo {
+        margin-bottom: 85px;
+    }
+
+    &__title {
+        font-size: 54px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+
+        &-name {
+            display: inline;
+            font-size: inherit;
+        }
+    }
+
+    &__subtitle {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.93;
+        margin-bottom: 250px;
+        padding: 0 20px 0;
+        text-transform: uppercase;
+    }
+
+    &__scroll {
+        background: url("../img/scroll.svg") no-repeat center;
+        height: 40px;
+        width: 35px;
+    }
+}
